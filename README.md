@@ -10,3 +10,5 @@ URL: https://br0ns0.github.io/flate/
 
 Feedback is encouraged! Enjoy
 
+
+Connect with me on LinkedIN: https://www.linkedin.com/in/bronson-sr/
