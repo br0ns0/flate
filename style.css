@@ -70,5 +70,10 @@ h1 {
 
 .buttonup {
     display: block;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
+}
+
+footer {
+    color: #fff;
+
 }
