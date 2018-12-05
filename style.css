@@ -57,7 +57,36 @@ h4 {
     margin-bottom: 40px;
 }
 
+<<<<<<< HEAD
+/* .btn {
+    margin-bottom: 10px;
+} */
+
+.btn {
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 300px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;  }
+  
+  .btn-xl {
+    padding: 1rem 2rem; 
+  }
+  
+  .btn-primary {
+    background-color: #F05F44;
+    border-color: #F05F44; }
+  
+  .btn-primary:hover {
+    background-color: #ee4b08;
+    border-color: #ee4b08;
+    border-width: 5px;
+    cursor: pointer;
+  }
+    
+=======
 .btn {
     margin-bottom: 10px;
 }
 
+>>>>>>> 42ae065cf9cf6ec5c2288ff1e6aa4f5eb238c39a
