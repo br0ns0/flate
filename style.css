@@ -4,10 +4,13 @@ html {
     align-content: flex-end;
     outline: 5px solid green;
 }
+
 /* Responsive updates soon */
+
 .navbar {
     min-height: 80px;
 }
+
 
 .center {
     margin: -55px -62px;
@@ -19,6 +22,7 @@ html {
     height: 25px;
     line-height: 40px;
 }
+
 
 .dropdown-item {
     color: #4FC449
@@ -37,6 +41,48 @@ img {
     padding: -10px -15px;
 
 }
+
+@-webkit-keyframes rotateIn {
+    from {
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: rotate3d(0, 0, 1, -200deg);
+        transform: rotate3d(0, 0, 1, -200deg);
+        opacity: 0;
+    }
+
+    to {
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+
+@keyframes rotateIn {
+    from {
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: rotate3d(0, 0, 1, -200deg);
+        transform: rotate3d(0, 0, 1, -200deg);
+        opacity: 0;
+    }
+
+    to {
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+
+.rotateIn {
+    -webkit-animation-name: rotateIn;
+    animation-name: rotateIn;
+}
+
 
 
 .mantra {
@@ -60,14 +106,14 @@ h4 {
 .btn {
     margin-bottom: 10px;
 }
+
 .btn {
     font-weight: 700;
     text-transform: uppercase;
     border-radius: 300px;
     font-family: 'Montserrat', sans-serif;
-  }
-  
-  .btn-xl {
-    padding: 1rem 2rem; 
-  }
-  
+}
+
+.btn-xl {
+    padding: 1rem 2rem;
+}
