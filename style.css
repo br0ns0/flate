@@ -2,7 +2,7 @@ html {
     background: url(images/plate2new.jpg) no-repeat center fixed;
     background-size: cover;
     align-content: flex-end;
-    outline: 5px solid #28a745;
+    outline: 5px solid green;
 }
 
 /* Responsive updates soon */
@@ -12,37 +12,35 @@ html {
 }
 
 
+.center {
+    margin: -55px -62px;
+
+}
 
 .navbar-brand {
     padding: 0 20px;
     height: 25px;
     line-height: 40px;
 }
-/* For mobile phones: */
-[class*="col-"] {
-    width: 100%;
-  }
-  
+
 
 .dropdown-item {
-    color: #28a745;
-}
- .green {
-     color: #28a745;
-
+    color: #4FC449
 }
 
-
-h4 {
-    margin-bottom: none;
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
 }
 
-    .container {
-        display: block;
-        justify-content: center;
-        margin-top: auto;
-        text-align: center;
-    }
+
+img {
+    margin-top: -25px;
+    margin-bottom: -15px;
+    padding: -10px -15px;
+
+}
 
 @-webkit-keyframes rotateIn {
     from {
@@ -83,6 +81,20 @@ h4 {
 .rotateIn {
     -webkit-animation-name: rotateIn;
     animation-name: rotateIn;
+}
+
+
+
+.mantra {
+    position: fixed;
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+    color: rgba(46, 139, 41, 0.9);
+}
+
+h4 {
+    font-family: 'Special Elite', cursive;
 }
 
 
